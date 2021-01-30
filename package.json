@@ -1,0 +1,38 @@
+{
+  "name": "the-man-in-me",
+  "version": "1.0.0",
+  "description": "A landing page for the poem collection, The Man in Me by Maxwell Kapezi, Jr",
+  "main": "index.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-regular-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "materialize-css": "^1.0.0-rc.2",
+    "next": "^10.0.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-transition-group": "^4.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "poem",
+    "collection",
+    "poem",
+    "collection",
+    "literature",
+    "the man",
+    "the man in me",
+    "maxwell",
+    "kapezi",
+    "maxwell kapezi jr"
+  ],
+  "author": "Maxwell Kapezi Jr",
+  "license": "ISC"
+}
