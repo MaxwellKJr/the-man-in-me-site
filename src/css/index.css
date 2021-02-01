@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Potta+One&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.big {
+  font-family: "Potta One", "Montserrat", sans-serif;
+  font-size: 4rem;
+  margin: 2rem 0;
+  line-height: 1.5;
+}
