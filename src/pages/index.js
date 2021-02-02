@@ -1,26 +1,48 @@
+import { faArrowRight, faDownload } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Head from "next/head";
+import Link from "next/link";
+import Footer from "../components/Footer";
 import showcase from "../css/Showcase.module.css";
 
 const Index = () => {
   return (
-    <section id={showcase.showcase} className="valign-wrapper">
+    <section id={showcase.showcase} className="valign-wrapper center-align">
+      <Head>
+        <title>
+          Download "The Man in Me". A Poem Collection by Maxwell Kapezi Jr.
+        </title>
+      </Head>
+
       <div className="container">
         <div className="showcase-content">
-          <h4 className={showcase.showcase.h1}>
+          <h4>
             Download the poem collection,
             <br />
             <span className="big">"The Man in Me"</span>
           </h4>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
-            enim, quia ullam at quaerat iure.
+            <em>
+              "With each change, I changed, too. My thoughts, personality, how I
+              saw right and wrong. Words can kill."
+            </em>{" "}
+            <br /> ~ Skull Face, Metal Gear Solid V: The Phantom Pain
           </p>
           <div className="ctas">
-            <a className="waves-effect waves-light btn">Download</a>
-            <a href="#" className="waves-effect waves-light btn">
-              About Book
+            <a
+              href="http://www.datafilehost.com/get.php?file=b6d124d2"
+              className="waves-effect waves-dark btn btn-large amber lighten-2 black-text"
+            >
+              Download PDF <FontAwesomeIcon icon={faDownload} />
             </a>
+            <Link href="/about-book">
+              <a className="waves-effect waves-dark btn btn-large amber lighten-2 black-text b-text">
+                About Book <FontAwesomeIcon icon={faArrowRight} />
+              </a>
+            </Link>
           </div>
         </div>
+        <Footer />
       </div>
     </section>
   );

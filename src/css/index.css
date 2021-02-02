@@ -1,12 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Potta+One&display=swap");
 
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .big {
-  font-family: "Potta One", "Montserrat", sans-serif;
-  font-size: 4rem;
-  margin: 2rem 0;
+  font-family: "Potta One", "Montserrat", sans-serif !important;
+  font-size: 4.436rem;
   line-height: 1.5;
+}
+
+.ctas {
+  font-weight: bold;
+}
+
+.ctas .btn {
+  margin: 1rem;
+  top: 0;
+  transition: all 300ms ease-in-out;
+}
+
+.ctas .btn:hover {
+  top: -10px;
+}
+
+p {
+  line-height: 1.658;
+}
+
+.about-content h4 {
+  font-family: "Potta One", "Montserrat", sans-serif !important;
+}
+
+@media (max-width: 990px) {
+  .big {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .big {
+    font-size: 3.5rem;
+  }
 }
