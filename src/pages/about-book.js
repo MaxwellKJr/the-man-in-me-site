@@ -2,6 +2,7 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 import Footer from "../components/Footer";
 import showcase from "../css/Showcase.module.css";
 
@@ -19,14 +20,14 @@ const AboutBook = () => {
             <div className="col s12 m8 ebook-description">
               <h4>About Ebook</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consectetur voluptas voluptate minima!
+                The Man in Me is a narrative poetry collection written by
+                Maxwell Kapezi Jr.
               </p>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Facilis ducimus tempore ipsa inventore aliquam eligendi?
+                The plot follows a story of a woman who checks herself into a
+                mental institution and later narrates why and how she ended up
+                there.
               </p>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
             </div>
           </div>
           <div className="ctas">

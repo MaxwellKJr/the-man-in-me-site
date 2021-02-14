@@ -30,7 +30,7 @@ const Index = () => {
           </p>
           <div className="ctas">
             <a
-              href="http://www.datafilehost.com/get.php?file=b6d124d2"
+              href="https://www.datafilehost.com/d/d9671037"
               className="waves-effect waves-dark btn btn-large amber lighten-2 black-text"
             >
               Download PDF <FontAwesomeIcon icon={faDownload} />
