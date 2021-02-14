@@ -13,6 +13,8 @@ const Index = () => {
           property="og:description"
           content="Download 'The Man in Me'. A Poetry Collection by Maxwell Kapezi Jr."
         />
+        <meta property="og:image" content="/src/images/screenshot.png" />
+        <meta property="og:url" content="https://themaninme.vercel.app" />
         <title>
           Download "The Man in Me". A Poetry Collection by Maxwell Kapezi Jr.
         </title>
