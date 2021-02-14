@@ -2,7 +2,6 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
 import Link from "next/link";
-import Image from "next/image";
 import Footer from "../components/Footer";
 import showcase from "../css/Showcase.module.css";
 
@@ -16,9 +15,8 @@ const AboutBook = () => {
       <div className="container">
         <div className="about-content">
           <div className="row">
-            <div className="col s12 m4 ebook-cover"></div>
             <div className="col s12 m8 ebook-description">
-              <h4>About Ebook</h4>
+              <h4>About</h4>
               <p>
                 The Man in Me is a narrative poetry collection written by
                 Maxwell Kapezi Jr.

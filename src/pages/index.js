@@ -9,15 +9,19 @@ const Index = () => {
   return (
     <section id={showcase.showcase} className="valign-wrapper center-align">
       <Head>
+        <meta
+          property="og:description"
+          content="Download 'The Man in Me'. A Poetry Collection by Maxwell Kapezi Jr."
+        />
         <title>
-          Download "The Man in Me". A Poem Collection by Maxwell Kapezi Jr.
+          Download "The Man in Me". A Poetry Collection by Maxwell Kapezi Jr.
         </title>
       </Head>
 
       <div className="container">
         <div className="showcase-content">
           <h4>
-            Download the poem collection,
+            <span className="flow-text">Download the poetry collection,</span>
             <br />
             <span className="big">"The Man in Me"</span>
           </h4>
