@@ -25,7 +25,7 @@ const Index = () => {
         />
         <meta
           name="twitter:description"
-          content="The Man in Me is a collection of narrative poems about a woman who checks herself into a mental institution"
+          content="'The Man in Me' is a collection of narrative poems about a woman who checks herself into a mental hospital. We slowly learn about her life, poem by poem."
         />
         <meta
           name="twitter:image"
