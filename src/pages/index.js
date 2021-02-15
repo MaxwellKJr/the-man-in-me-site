@@ -19,6 +19,19 @@ const Index = () => {
           content="https://www.udrop.com/file/9925/screenshot.png"
         />
         <meta property="og:url" content="https://themaninme.vercel.app" />
+        <meta
+          name="twitter:title"
+          content="Download 'The Man in Me' by Maxwell Kapezi, Jr. "
+        />
+        <meta
+          name="twitter:description"
+          content="The Man in Me is a collection of narrative poems about a woman who checks herself into a mental institution"
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.udrop.com/file/4Xsh/coverart.jpg"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
         <title>
           Download "The Man in Me". A Poetry Collection by Maxwell Kapezi Jr.
         </title>
